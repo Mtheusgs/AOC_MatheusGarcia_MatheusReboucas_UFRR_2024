@@ -1,4 +1,4 @@
-![Image](https://github.com/user-attachments/assets/db488b39-3474-40f0-89b1-c5944e4cd93e)
+![Image](https://github.com/user-attachments/assets/8004c028-5c42-4a70-b100-4b7b6045c4a5)
 
 # Projeto Final : Processador 8 bits
 
