@@ -26,5 +26,5 @@ Este repositório foi criado com o propósito de relatar de forma detalhada os p
 1. Clone o repositório:
    ```bash
    git clone https://github.com/Mtheusgs/Processador_AOC.git
-   cd AOC_MatheusGarciaMatheusReboucas_UFRR_LabCircuitos_2024
+   cd Processador_AOC
    ```
