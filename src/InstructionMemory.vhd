@@ -1,7 +1,6 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
-use IEEE.std_logic_arith.all;
-use IEEE.std_logic_unsigned.all;
+use IEEE.numeric_std.all;
 
 entity InstructionMemory is
     port (
@@ -20,5 +19,6 @@ architecture Behavioral of InstructionMemory is
         others => "00000000"
     );
 begin
+    -- Convert Address to integer using numeric_std functions
     Instruction <= ROM(to_integer(unsigned(Address)));
 end Behavioral;
