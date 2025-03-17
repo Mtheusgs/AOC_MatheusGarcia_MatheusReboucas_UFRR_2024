@@ -1,7 +1,7 @@
-# Program_Counter - VHDL
+# Contador de Programa - VHDL
 
 ## 🔍 Descrição
-O **Program Counter (PC)** é um componente essencial do processador, responsável por manter o endereço da próxima instrução a ser executada. O PC é incrementado a cada ciclo de clock, ou atualizado com um valor específico, dependendo das condições de controle (como saltos ou desvios). Esta implementação foi desenvolvida em **VHDL** utilizando a plataforma **Quartus**, sendo um dos blocos fundamentais para o controle de fluxo de execução do processador.
+O **Contador de Programa (PC)** é um componente essencial do processador, responsável por manter o endereço da próxima instrução a ser executada. O PC é incrementado a cada ciclo de clock, ou atualizado com um valor específico, dependendo das condições de controle (como saltos ou desvios). Esta implementação foi desenvolvida em **VHDL** utilizando a plataforma **Quartus**, sendo um dos blocos fundamentais para o controle de fluxo de execução do processador.
 
 ---
 
