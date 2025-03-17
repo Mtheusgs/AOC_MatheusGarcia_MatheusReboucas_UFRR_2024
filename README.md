@@ -1,23 +1,32 @@
-![Image](https://github.com/user-attachments/assets/8004c028-5c42-4a70-b100-4b7b6045c4a5)
+# Projeto Final: Processador 8 bits
 
-# Projeto Final : Processador 8 bits
+## 📚 Disciplina: Arquitetura e Organização de Computadores
 
-## Disciplina: Arquitetura e Organização de Computadores
+### 🎯 Objetivo
 
-### 🎯Objetivo:
+Este repositório foi criado para documentar detalhadamente o desenvolvimento de um processador de 8 bits, projeto final da disciplina de Arquitetura e Organização de Computadores. Além de fornecer um relatório completo, ele também serve como um recurso para estudantes e entusiastas da área, oferecendo suporte para dúvidas e dificuldades relacionadas ao projeto.
 
-Este repositório foi criado com o propósito de relatar de forma detalhada os processos ultilizados para a produção de um processador de 8 bits (Projeto final da disciplina), dessa forma produzindo um relatório completo. Além disso, o objetivo é fornecer suporte adicional a outros usuários que possam ter dúvidas ou dificuldades relacionadas a esse Projeto, servindo como uma ferramenta de aprendizado e consulta para a comunidade.
+---
 
+### 🏗️ Descrição do Projeto
 
-----
+Este projeto consiste no desenvolvimento de um processador de 8 bits utilizando a ferramenta Quartus. Durante o processo, foram criados diversos componentes essenciais para a arquitetura do processador, bem como seu datapath. Para validar o funcionamento do circuito, foram utilizados os simuladores Waveform e ModelSim para realizar testes e depuração.
 
-### 📂 Estrutura do Repositório //Ajeitar
+---
 
-- **/src**: Contém os arquivos dos circuitos criados no Logisim.
-- **/docs**: Relatórios técnicos detalhando cada exercício.
-- **/exercises**: Contém a lista original de exercícios (PDF).
-- **/images**: Capturas de tela dos circuitos e tabelas verdade.
+### 📂 Estrutura do Repositório
+
+- **[/src](./src)**: Contém os arquivos-fonte do projeto, incluindo a implementação dos componentes do processador.
+- **[/docs](./docs)**: Inclui documentações, diagramas e relatórios técnicos sobre o desenvolvimento.
 - **README.md**: Este documento.
+
+---
+
+### 🛠️ Ferramentas Utilizadas
+
+- **Quartus**: Utilizado para a implementação do processador e a criação dos componentes.
+-- **ModelSim**: Ferramenta utilizada para simulação e depuração do circuito.
+-- **Waveform**: Usado para análise do comportamento do processador por meio de formas de onda.
 
 ---
 
@@ -25,6 +34,18 @@ Este repositório foi criado com o propósito de relatar de forma detalhada os p
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Mtheusgs/Processador_AOC.git
+   git clone .git
    cd Processador_AOC
    ```
+2. Abra o projeto no Quartus.
+3. Execute as simulações utilizando o ModelSim e o Waveform.
+4. Consulte os documentos na pasta `/docs` para mais informações sobre o funcionamento do processador.
+
+---
+
+### 📢 Contribuições
+
+Sinta-se à vontade para contribuir com sugestões, correções e melhorias para este projeto. Caso tenha dúvidas, abra uma issue ou entre em contato!
+
+🚀 **Vamos construir conhecimento juntos!**
+
