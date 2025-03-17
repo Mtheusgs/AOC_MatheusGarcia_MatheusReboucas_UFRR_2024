@@ -35,7 +35,7 @@ Este projeto consiste no desenvolvimento de um processador de 8 bits utilizando 
 1. Clone o repositório:
    ```bash
    git clone  https://https://github.com/Mtheusgs/AOC_MatheusGarcia_MatheusReboucas_UFRR_2024.git
-   cd Processador_AOC
+   cd AOC_MatheusGarcia_MatheusReboucas_UFRR_2024
    ```
 2. Abra o projeto no Quartus.
 3. Execute as simulações utilizando o ModelSim e o Waveform.
