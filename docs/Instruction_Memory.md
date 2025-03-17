@@ -1,7 +1,5 @@
 # Instruction Memory - VHDL
 
-## 📚 Disciplina: Arquitetura e Organização de Computadores  
-
 ### 🔍 Descrição  
 A **Instruction Memory** (Memória de Instruções) é um dos principais componentes do processador, responsável por armazenar as instruções do programa e fornecê-las ao processador com base no valor do **Program Counter (PC)**.  
 
