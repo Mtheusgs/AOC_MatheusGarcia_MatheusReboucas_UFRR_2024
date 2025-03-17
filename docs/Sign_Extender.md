@@ -1,7 +1,7 @@
 # Extensor de Sinal - VHDL
 
 ## 🔍 Descrição
-O **Extensor de Sinal** é um componente responsável por expandir um valor de dados de um tamanho menor (geralmente 8 bits) para um tamanho maior (como 16 bits ou 32 bits), mantendo o sinal correto. A expansão do sinal é feita replicando o bit de sinal (bit mais significativo) nos bits adicionais. Esta implementação foi realizada em **VHDL** utilizando a plataforma **Quartus**, sendo útil para instruções que exigem valores de imediato maiores que o tamanho de um byte.
+O **Extensor de Sinal** é um componente responsável por expandir um valor de dados de um tamanho menor, como por exemplo (8 bits) para um tamanho maior (como 16 bits ou 32 bits), mantendo o sinal correto. A expansão do sinal é feita replicando o bit de sinal (bit mais significativo) nos bits adicionais. Esta implementação foi realizada em **VHDL** utilizando a plataforma **Quartus**, sendo útil para instruções que exigem valores de imediato maiores que o tamanho de um byte.
 
 ---
 
