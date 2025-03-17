@@ -37,9 +37,6 @@ A ULA foi implementada em **VHDL**, organizando suas operações da seguinte man
    - Soma (A + B)
    - Subtração (A - B) usando complemento de dois
 
-3. **Operações de Deslocamento**
-   - Shift Left (A << 1)
-   - Shift Right (A >> 1)
 
 A seleção da operação é feita com base no código de controle **Op[3:0]**, utilizando um **multiplexador** interno para direcionar a saída correta.
 
