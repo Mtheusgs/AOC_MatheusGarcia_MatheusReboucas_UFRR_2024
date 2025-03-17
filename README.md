@@ -25,8 +25,8 @@ Este projeto consiste no desenvolvimento de um processador de 8 bits utilizando 
 ### 🛠️ Ferramentas Utilizadas
 
 - **Quartus**: Utilizado para a implementação do processador e a criação dos componentes.
--- **ModelSim**: Ferramenta utilizada para simulação e depuração do circuito.
--- **Waveform**: Usado para análise do comportamento do processador por meio de formas de onda.
+- **ModelSim**: Ferramenta utilizada para simulação e depuração do circuito.
+- **Waveform**: Usado para análise do comportamento do processador por meio de formas de onda.
 
 ---
 
@@ -34,7 +34,7 @@ Este projeto consiste no desenvolvimento de um processador de 8 bits utilizando 
 
 1. Clone o repositório:
    ```bash
-   git clone .git
+   git clone  https://https://github.com/Mtheusgs/AOC_MatheusGarcia_MatheusReboucas_UFRR_2024.git
    cd Processador_AOC
    ```
 2. Abra o projeto no Quartus.
