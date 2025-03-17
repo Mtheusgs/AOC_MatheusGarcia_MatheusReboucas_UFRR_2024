@@ -1,0 +1,14 @@
+|Sign_Extender_2
+short_address[0] => extended_address[0].DATAIN
+short_address[1] => extended_address[1].DATAIN
+short_address[2] => extended_address[2].DATAIN
+extended_address[0] <= short_address[0].DB_MAX_OUTPUT_PORT_TYPE
+extended_address[1] <= short_address[1].DB_MAX_OUTPUT_PORT_TYPE
+extended_address[2] <= short_address[2].DB_MAX_OUTPUT_PORT_TYPE
+extended_address[3] <= <GND>
+extended_address[4] <= <GND>
+extended_address[5] <= <GND>
+extended_address[6] <= <GND>
+extended_address[7] <= <GND>
+
+
