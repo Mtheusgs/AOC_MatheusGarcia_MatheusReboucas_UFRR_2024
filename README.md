@@ -1,3 +1,5 @@
+![Image](https://github.com/user-attachments/assets/8004c028-5c42-4a70-b100-4b7b6045c4a5)
+
 # Projeto Final: Processador 8 bits
 
 ## 📚 Disciplina: Arquitetura e Organização de Computadores
