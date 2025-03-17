@@ -75,7 +75,7 @@ Aqui você pode adicionar capturas das **waveforms** geradas no Quartus:
 
 ## 📂 Arquivos Relacionados
 
-- [Arquivo do Logisim Evolution](../src/ALU)
+- [Pasta ALU](../src/ALU)
 
 
 
