@@ -1,0 +1,19 @@
+|Instruction_Memory
+Address[0] => ROM.RADDR
+Address[1] => ROM.RADDR1
+Address[2] => ROM.RADDR2
+Address[3] => ROM.RADDR3
+Address[4] => ~NO_FANOUT~
+Address[5] => ~NO_FANOUT~
+Address[6] => ~NO_FANOUT~
+Address[7] => ~NO_FANOUT~
+Instruction[0] <= ROM.DATAOUT
+Instruction[1] <= ROM.DATAOUT1
+Instruction[2] <= ROM.DATAOUT2
+Instruction[3] <= ROM.DATAOUT3
+Instruction[4] <= ROM.DATAOUT4
+Instruction[5] <= ROM.DATAOUT5
+Instruction[6] <= ROM.DATAOUT6
+Instruction[7] <= ROM.DATAOUT7
+
+
