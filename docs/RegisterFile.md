@@ -1,4 +1,4 @@
-# RegisterFile - VHDL
+# Arquivo de Registros - VHDL
 
 ## 🔍 Descrição
 O **Register File** (Arquivo de Registros) é um componente crucial no processador, responsável por armazenar e acessar os valores dos registradores utilizados nas operações do processador. Este módulo permite leitura e escrita em dois registradores diferentes simultaneamente, além de fornecer um sinal de controle para selecionar qual registrador acessar. A implementação foi realizada em **VHDL** utilizando a plataforma **Quartus**.
