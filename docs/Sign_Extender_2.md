@@ -1,7 +1,7 @@
-# Sign_Extender_2 - VHDL
+# Extensor de Sinal 2 - VHDL
 
 ## 🔍 Descrição
-O **Sign Extender 2** é uma versão do **Sign Extender** que expande um valor de 8 bits para um tamanho maior, mas com um comportamento ligeiramente diferente. Ele pode ser configurado para estender o valor para 16 ou 32 bits, dependendo do sinal de controle. A principal diferença do **Sign Extender 2** é a forma como ele manipula o valor de entrada em termos de deslocamento de bits, oferecendo mais flexibilidade. A implementação foi realizada em **VHDL** utilizando a plataforma **Quartus**.
+O **Extensor de Sinal 2** é uma versão do **Sign Extender** que expande um valor de 8 bits para um tamanho maior, mas com um comportamento ligeiramente diferente. Ele pode ser configurado para estender o valor para 16 ou 32 bits, dependendo do sinal de controle. A principal diferença do **Sign Extender 2** é a forma como ele manipula o valor de entrada em termos de deslocamento de bits, oferecendo mais flexibilidade. A implementação foi realizada em **VHDL** utilizando a plataforma **Quartus**.
 
 ---
 
