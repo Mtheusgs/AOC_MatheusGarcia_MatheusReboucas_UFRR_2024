@@ -22,6 +22,14 @@ Este projeto consiste no desenvolvimento de um processador de 8 bits utilizando 
 
 ---
 
+### 📌 Estrutura das Instruções
+
+- Tipo R: **opcode (3 bits) | Reg1 (2 bits) | Reg2 (2 bits) | (desconsiderado, 1 bit)**;
+- Tipo I: **opcode (3 bits) | Reg (2 bits) | Immediato (3 bits)**;
+- Tipo J: **opcode (3 bits) | Address (5 bits)**.
+
+---
+
 ### 📂 Estrutura do Repositório
 
 - **[/src](./src)**: Contém os arquivos-fonte do projeto, incluindo a implementação dos componentes do processador.
