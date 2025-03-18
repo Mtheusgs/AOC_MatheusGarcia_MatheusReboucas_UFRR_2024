@@ -79,9 +79,11 @@ Os testes foram realizados no **ModelSim**, verificando cada etapa do ciclo de e
 | `BEQ R1, R2` | 14  | 100    | 8    | 8    | -          | 0       | 0        | 1    | Salta se R1 == R2            |
 | `JUMP`       | 18  | 101    | -    | -    | -          | 0       | 0        | -    | Salta para endereço imediato |
 
-### 📊 **Imagens das Simulações **
+### 📊 **Imagens das Simulações**
 
-Inclua aqui capturas das **waveforms** geradas no ModelSim para visualização do comportamento dos sinais durante a execução das instruções.
+Aqui você pode observar as **waveforms** geradas no Quartus:
+
+![Waveform da ALU](../img/waveform_datapath.png)
 
 ---
 

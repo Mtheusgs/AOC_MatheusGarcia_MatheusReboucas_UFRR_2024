@@ -57,6 +57,7 @@ Este projeto consiste no desenvolvimento de um processador de 8 bits utilizando 
 2. Abra o projeto no Quartus.
 3. Execute as simulações utilizando o ModelSim e o Waveform.
 4. Consulte os documentos na pasta `/docs` para mais informações sobre o funcionamento do processador.
+5. Em caso de dúvida sobre como rodar o testbench junto com a entidade principal, verifique o vídeo [aqui](https://www.youtube.com/watch?v=NbuOL0FVw80&list=PLYE3wKnWQbHDdnb3FsDkNx2tj8xoQAPtN&index=24)
 
 ---
 
