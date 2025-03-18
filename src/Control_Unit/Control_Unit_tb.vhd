@@ -1,11 +1,13 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
 
 entity Control_Unit_tb is
 end Control_Unit_tb;
 
-architecture Behavioral of Control_Unit_tb is
-    -- Component declaration for the Unit Under Test (UUT)
+architecture behavior of Control_Unit_tb is
+
+    -- Component Declaration
     component Control_Unit
         Port (
             opcode   : in  STD_LOGIC_VECTOR (2 downto 0);
@@ -14,52 +16,46 @@ architecture Behavioral of Control_Unit_tb is
             ALUOp    : out STD_LOGIC_VECTOR (1 downto 0);
             MemRead  : out STD_LOGIC;
             MemWrite : out STD_LOGIC;
-            Branch   : out STD_LOGIC;
-            Jump     : out STD_LOGIC;
+            BranchFlag   : out STD_LOGIC;
+            JumpFlag     : out STD_LOGIC;
             MemtoReg : out STD_LOGIC
         );
     end component;
 
-    -- Signals to connect to the UUT
-    signal opcode   : STD_LOGIC_VECTOR (2 downto 0);
-    signal RegWrite : STD_LOGIC;
-    signal ALUSrc   : STD_LOGIC;
-    signal ALUOp    : STD_LOGIC_VECTOR (1 downto 0);
-    signal MemRead  : STD_LOGIC;
-    signal MemWrite : STD_LOGIC;
-    signal Branch   : STD_LOGIC;
-    signal Jump     : STD_LOGIC;
-    signal MemtoReg : STD_LOGIC;
+    -- Signals
+    signal opcode_tb   : STD_LOGIC_VECTOR (2 downto 0) := "000";
+    signal RegWrite_tb, ALUSrc_tb, MemRead_tb, MemWrite_tb, BranchFlag_tb, JumpFlag_tb, MemtoReg_tb : STD_LOGIC;
+    signal ALUOp_tb    : STD_LOGIC_VECTOR (1 downto 0);
 
 begin
-    -- Instantiate the UUT
-    UUT: Control_Unit
+    -- Instantiate the Control Unit
+    uut: Control_Unit
         port map (
-            opcode   => opcode,
-            RegWrite => RegWrite,
-            ALUSrc   => ALUSrc,
-            ALUOp    => ALUOp,
-            MemRead  => MemRead,
-            MemWrite => MemWrite,
-            Branch   => Branch,
-            Jump     => Jump,
-            MemtoReg => MemtoReg
+            opcode => opcode_tb,
+            RegWrite => RegWrite_tb,
+            ALUSrc => ALUSrc_tb,
+            ALUOp => ALUOp_tb,
+            MemRead => MemRead_tb,
+            MemWrite => MemWrite_tb,
+            BranchFlag => BranchFlag_tb,
+            JumpFlag => JumpFlag_tb,
+            MemtoReg => MemtoReg_tb
         );
 
-    -- Stimulus process
+    -- Stimulus Process
     stim_proc: process
     begin
-        -- Test each opcode
-        opcode <= "000"; wait for 10 ns;  -- ADD
-        opcode <= "001"; wait for 10 ns;  -- SUB
-        opcode <= "010"; wait for 10 ns;  -- LW
-        opcode <= "011"; wait for 10 ns;  -- SW
-        opcode <= "100"; wait for 10 ns;  -- BEQ
-        opcode <= "101"; wait for 10 ns;  -- JUMP
-        opcode <= "110"; wait for 10 ns;  -- Unused opcode
-        opcode <= "111"; wait for 10 ns;  -- Unused opcode
+        -- Test all opcodes
+        for i in 0 to 6 loop
+            opcode_tb <= std_logic_vector(to_unsigned(i, 3));
+            wait for 10 ns;
+        end loop;
+        
+        -- Test invalid opcode
+        opcode_tb <= "111";
+        wait for 10 ns;
 
-        -- End simulation
         wait;
     end process;
-end Behavioral;
+
+end behavior;

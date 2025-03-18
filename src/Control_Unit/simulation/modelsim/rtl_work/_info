@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/Matheus/Desktop/processor_mips_8bits/Control_Unit/simulation/modelsim
 Econtrol_unit
-Z1 w1742157468
+Z1 w1742273375
 Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
@@ -19,13 +19,13 @@ Z6 8C:/Users/Matheus/Desktop/processor_mips_8bits/Control_Unit/Control_Unit.vhd
 Z7 FC:/Users/Matheus/Desktop/processor_mips_8bits/Control_Unit/Control_Unit.vhd
 l0
 L6
-V4>lBTkb]42MhHCjiAPab30
-!s100 dXdJO@7_2c52KRa8HVA:82
+V9=ZH^6SdlI6JOVI[A]L4_0
+!s100 XOORbNO?IFek]aDGWM5jf1
 Z8 OV;C;10.5b;63
 31
-Z9 !s110 1742157565
+Z9 !s110 1742273599
 !i10b 1
-Z10 !s108 1742157565.000000
+Z10 !s108 1742273599.000000
 Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Matheus/Desktop/processor_mips_8bits/Control_Unit/Control_Unit.vhd|
 Z12 !s107 C:/Users/Matheus/Desktop/processor_mips_8bits/Control_Unit/Control_Unit.vhd|
 !i113 1
@@ -36,11 +36,11 @@ R2
 R3
 R4
 R5
-DEx4 work 12 control_unit 0 22 4>lBTkb]42MhHCjiAPab30
+DEx4 work 12 control_unit 0 22 9=ZH^6SdlI6JOVI[A]L4_0
 l21
 L20
-V1]Hk^4YRS@c3MQIB8;BEQ2
-!s100 4Y@o9=6JFi5i3z>KLG7Q51
+VObo6mhoalG<0T^?bRPZcO0
+!s100 I9=N8c;ZP`cFRFHOD1k>M1
 R8
 31
 R9
@@ -52,41 +52,43 @@ R12
 R13
 R14
 Econtrol_unit_tb
-Z15 w1742157458
+Z15 w1742273577
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R4
 R5
 R0
-Z16 8C:/Users/Matheus/Desktop/processor_mips_8bits/Control_Unit/Control_Unit_tb.vhd
-Z17 FC:/Users/Matheus/Desktop/processor_mips_8bits/Control_Unit/Control_Unit_tb.vhd
+Z17 8C:/Users/Matheus/Desktop/processor_mips_8bits/Control_Unit/Control_Unit_tb.vhd
+Z18 FC:/Users/Matheus/Desktop/processor_mips_8bits/Control_Unit/Control_Unit_tb.vhd
 l0
-L4
-VA@eh^Mi=felKV>CoG2ZFk0
-!s100 @gLU8eUom[[6mzFXK_OBA0
+L5
+VYo>7OGfT];M0if0>l6HTl3
+!s100 IeRWomLS5?eaSD4K=?YKE2
 R8
 31
 R9
 !i10b 1
 R10
-Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Matheus/Desktop/processor_mips_8bits/Control_Unit/Control_Unit_tb.vhd|
-Z19 !s107 C:/Users/Matheus/Desktop/processor_mips_8bits/Control_Unit/Control_Unit_tb.vhd|
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Matheus/Desktop/processor_mips_8bits/Control_Unit/Control_Unit_tb.vhd|
+Z20 !s107 C:/Users/Matheus/Desktop/processor_mips_8bits/Control_Unit/Control_Unit_tb.vhd|
 !i113 1
 R13
 R14
-Abehavioral
+Abehavior
+R16
 R4
 R5
-DEx4 work 15 control_unit_tb 0 22 A@eh^Mi=felKV>CoG2ZFk0
-l34
-L7
-Vge159dnT8nA_`DkTDFWF50
-!s100 iYjTlig7z[CK^WdGl?VfF2
+DEx4 work 15 control_unit_tb 0 22 Yo>7OGfT];M0if0>l6HTl3
+l30
+L8
+V5Y2<JlIofM]VmC1keQZX?1
+!s100 ;jG7o5bgBTMA9;<;Fg?Z50
 R8
 31
 R9
 !i10b 1
 R10
-R18
 R19
+R20
 !i113 1
 R13
 R14
