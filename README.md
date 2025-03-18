@@ -16,10 +16,17 @@ Este projeto consiste no desenvolvimento de um processador de 8 bits utilizando 
 
 ---
 
+### Diagrama do Processador Envisionado
+
+![Diagrama MIPS 8 Bits com 4 Registradores](/img/diagrama_do_processador.png)
+
+---
+
 ### 📂 Estrutura do Repositório
 
 - **[/src](./src)**: Contém os arquivos-fonte do projeto, incluindo a implementação dos componentes do processador.
 - **[/docs](./docs)**: Inclui documentações, diagramas e relatórios técnicos sobre o desenvolvimento.
+- **[/img](./img/)**: Inclui as imagens utilizadas na documentação e README.
 - **README.md**: Este documento.
 
 ---
@@ -50,4 +57,3 @@ Este projeto consiste no desenvolvimento de um processador de 8 bits utilizando 
 Sinta-se à vontade para contribuir com sugestões, correções e melhorias para este projeto. Caso tenha dúvidas, abra uma issue ou entre em contato!
 
 🚀 **Vamos construir conhecimento juntos!**
-
